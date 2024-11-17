@@ -38,7 +38,7 @@ function draw() {
   } else if (pantalla === 4) {
     p4();
   } else if (pantalla === 5) {
-    p5();
+    pant5();
   } else if (pantalla === 6) {
     p6();
   } else if (pantalla === 7) {
@@ -148,7 +148,7 @@ function p4() {
 }
 
 // Pantalla 5
-function p5() { // dejarlo
+function pant5() { // dejarlo
   image(imagenes[6], 0, 0, width, height);
 
   // Texto y recuadro
