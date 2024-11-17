@@ -9,7 +9,7 @@ function preload() {
   soundFormats('mp3');
   miFuente = loadFont('data/dogica.ttf');
 
- sonido = loadSound('/data/music.mp3');
+ sonido = loadSound('/data/sonido.mp3');
 
   for (let i = 1; i <= 19; i++) {
     imagenes[i] = loadImage('data/img' + i + '.png');
